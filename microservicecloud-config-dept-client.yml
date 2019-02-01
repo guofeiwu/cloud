@@ -6,6 +6,7 @@ server:
   port: 8001
 
 spring:
+  profiles: dev
   application:
     name: microservice-config-dept
   datasource:
@@ -46,6 +47,7 @@ server:
   port: 8002
 
 spring:
+  profiles: test
   application:
     name: microservice-config-dept
   datasource:
