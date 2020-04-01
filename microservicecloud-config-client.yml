@@ -1,4 +1,5 @@
-﻿
+﻿config:
+  info: client-config-info
 spring:
   profiles:
     active: dev
